@@ -1,0 +1,54 @@
+body {
+    background-color: #000;
+    color:rgb(38, 204, 38);
+    font-family: monospace;
+}
+
+#description {
+    display: block;
+    width:  70vw;
+    margin: auto;
+    border: 2px dotted silver;
+    padding: 1rem;
+    text-align: center;
+}
+
+#commands {
+    display: block;
+    font-family: inherit;
+    color: inherit;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: inherit;
+    padding: 5px;
+    border: 2px dotted silver;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin: 3rem;
+}
+
+#do {
+    display: block;
+    margin: auto;
+    width: 8rem;
+    height: 2rem;
+    color: inherit;
+    background-color: inherit;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    border: 2px solid rgb(38, 204, 38);
+    border-radius: 10px;
+}
+
+
+#do:hover {
+    color: #000;
+    background-color: rgb(38, 204, 38);
+
+}
+
+
